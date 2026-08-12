@@ -1,7 +1,7 @@
 import { test, expect } from '@playwright/test';
 import { BasePage } from '../pages/base-page';
 import { Header } from '../pages/header';
-import { SignupLoginPage } from '../pages/signUp-login-page';
+import { SignupLoginPage } from '../pages/signup-login-page';
 import { faker } from '@faker-js/faker';
 
 test('Register with existing email', async ({ page }) => {

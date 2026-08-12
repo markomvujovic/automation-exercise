@@ -1,7 +1,7 @@
 import { faker } from '@faker-js/faker';
 import { Page } from '@playwright/test';
 import { Header } from '../pages/header';
-import { SignupLoginPage } from '../pages/signUp-login-page';
+import { SignupLoginPage } from '../pages/signup-login-page';
 import { SignupFormPage } from '../pages/signup-form-page';
 import { AccountCreatedSuccessPage } from '../pages/account-created-success-page';
 import { AccountDeletedSuccessPage } from '../pages/account-deleted-success-page';
